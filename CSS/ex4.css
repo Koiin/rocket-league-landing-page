@@ -1,0 +1,115 @@
+BODY {
+	background-image: url("../JPG/Fondo.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: absolute;
+	flex-direction: column;
+	align-items: center;
+}
+
+H1 {
+	color: black;
+	font-family: 'Francois One', sans-serif;
+	font-size: 120px;
+	text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 15px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 50px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de;
+	top:-80px;
+	left: 565px;
+	margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+
+H1:hover {
+	text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 15px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 50px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff;
+}
+
+TABLE {
+	background-color: #c900ff;
+	font-family: 'Francois One', sans-serif;
+	border-radius: 15px;
+}
+
+p {
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10px;
+	font-family: 'Francois One', sans-serif;
+	font-size: 28px;
+	background-color: rgba(20, 20, 20, 0.8);
+	color: white;
+	padding: 10px;
+}
+
+.pindex {
+	margin-top: 0px;
+	margin-bottom: 0px;
+    border-bottom-width: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.pindex2 {
+	border-top-width: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+div {
+	margin:40px;
+}
+
+A {
+	text-decoration: none;
+	color: black;
+}
+
+.box {
+
+}
+
+.box:hover {
+	background-color: #00ffff;
+	border: 2px;
+	box-shadow: 0 0 5px rgba(200,200,200,1) , 0 0 10px rgba(200,200,200,1) , 0 0 20px rgba(200,200,200,1) , 0 0 30px #00ffff , 0 0 50px #00ffff , 0 0 65px #00ffff;
+}
+
+.box:first-child {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.box:last-child {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.borderindex {
+	box-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 15px rgba(255,255,255,1) , 0 0 50px rgba(20, 20, 20, 1) , 0 0 70px rgba(20, 20, 20, 1);
+	border-radius: 15px;
+}
+
+.contenedor-imagenes {
+ display: flex;
+ text-align: center;
+ }
+
+Otros juegos.html img {
+	border-radius: 5px;
+	display: flex;
+	text-align: center;
+}
+
+.bordefoto {
+	box-shadow: 0 0 5px rgba(0,200,220,1) , 0 0 15px rgba(0,200,220,1) , 0 0 30px rgba(0,200,220,1) , inset 0 0 5px rgba(93,8,251,1) , inset 0 0 15px rgba(52,98,238,1) , inset 0 0 30px rgba(23, 1, 223, 1);
+}
+
+Personajes.html img {
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,255,1) , 0 0 15px rgba(0,0,255,1);
+}
+
